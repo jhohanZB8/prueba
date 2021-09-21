@@ -1,0 +1,98 @@
+.tema1{
+	position: absolute;
+	border: solid black 5px;
+	font-size: 40px;
+	font-family: Forte;
+	top: 1%;
+	left: 1%;
+	width: 14%;
+	padding-left: 3%;
+}
+.tema2{
+	position: absolute;
+	border: solid black 5px;
+	font-size: 40px;
+	font-family: Forte;
+	top: 15%;
+	left: 1%;
+	width: 14%;
+	padding-left: 3%;
+}
+.tema3{
+	position: absolute;
+	border: solid black 5px;
+	font-size: 40px;
+	font-family: Forte;
+	top: 30%;
+	left: 1%;
+	width: 14%;
+	padding-left: 3%;
+}
+.tema4{
+	position: absolute;
+	border: solid black 5px;
+	font-size: 40px;
+	font-family: Forte;
+	top: 45%;
+	left: 1%;
+	width: 14%;
+	padding-left: 3%;
+}
+.info1{
+	position: absolute;
+	width: 400%;
+	height: 1130%;
+	border: solid black 5px;
+	font-size: 30px;
+	font-family: Alegrian;
+	top: 1%;
+	left: 130%;
+	right: 5%;
+	background: rgba(0, 0, 0, 0.0);
+	display: none;
+}
+.img1{
+	position: absolute;
+    top: 40%;
+    left: 15%;
+    border: solid black 5px;
+    height:300px; 
+    width: 610px;
+    background-size: cover;
+}
+.tema1:hover{
+	background: yellow;
+	display:block;
+	color: black;
+}
+.tema2:hover{
+	background: yellow;
+	display:block;
+	color: black;
+}
+.tema3:hover{
+	background: yellow;
+	display:block;
+	color: black;
+}
+.tema4:hover{
+	background: yellow;
+	display:block;
+	color: black;
+}
+.tema1:active .info1{
+display: block;
+color: blue;
+}
+.tema2:active .info1{
+display: block;
+color: blue;
+}
+.tema3:active .info1{
+display: block;
+color: blue;
+}
+.tema4:active .info1{
+display: block;
+color: blue;
+}
