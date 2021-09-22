@@ -56,9 +56,11 @@
     top: 40%;
     left: 15%;
     border: solid black 5px;
+    background: url("itachi fondo.jpg");
+    background-size: cover;
     height:300px; 
     width: 610px;
-    background-size: cover;
+    display: none;
 }
 .tema1:hover{
 	background: yellow;
@@ -93,6 +95,22 @@ display: block;
 color: blue;
 }
 .tema4:active .info1{
+display: block;
+color: blue;
+}
+.tema1:active .img1{
+display: block;
+color: blue;
+}
+.tema2:active .img1{
+display: block;
+color: blue;
+}
+.tema3:active .img1{
+display: block;
+color: blue;
+}
+.tema4:active .img1{
 display: block;
 color: blue;
 }
